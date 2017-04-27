@@ -11,12 +11,6 @@ import (
 	"os"
 	"os/exec"
 	"text/template"
-
-	"github.com/gorilla/mux"
-	"github.com/microcosm-cc/bluemonday"
-	"github.com/russross/blackfriday"
-         "github.com/cosiner/argv"
-
 )
 
 func main() {
