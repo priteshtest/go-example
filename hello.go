@@ -11,6 +11,7 @@ import (
 	"os"
 	"os/exec"
 	"text/template"
+	"github.com/ant0ine/go-json-rest"
 )
 
 func main() {
