@@ -27,5 +27,5 @@ func main() {
 	log.Fatal(http.ListenAndServe(":8080", api.MakeHandler()))
 	
 	client := github.NewClient(nil)
-	orgs, _, err := client.Organizations.List(ctx, "priteshtest", nil)
+	
 }
