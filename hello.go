@@ -13,7 +13,6 @@ import (
 	"text/template"
 	"github.com/ant0ine/go-json-rest/rest"
         "log"
-        "net/http"
 	"github.com/priteshtest/go-github/github"
 )
 
