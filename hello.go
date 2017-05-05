@@ -15,6 +15,7 @@ import (
         "log"
 	"github.com/priteshtest/go-github/github"
 	"github.com/nwidger/jsoncolor"
+	"github.com/rakyll/portmidi"
 )
 
 func main() {
@@ -28,5 +29,6 @@ func main() {
 	
 	client := github.NewClient(nil)
 	f := jsoncolor.NewFormatter()
+	portmidi.Initialize()
 	
 }
